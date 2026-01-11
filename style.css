@@ -115,9 +115,11 @@ img {
     height: 100vh;
     min-height: 600px;
     background-image: url('foto/IMG_0705.jpg');
-    background-size: cover;
+    background-size: contain;
     background-position: center bottom;
+    background-repeat: no-repeat;
     background-attachment: scroll;
+    background-color: #2a2a2a;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -1015,7 +1017,7 @@ section {
     .hero-section {
         background-attachment: scroll;
         background-position: center bottom;
-        background-size: cover;
+        background-size: contain;
         padding-top: 140px;
         min-height: 100vh;
     }
@@ -1057,7 +1059,7 @@ section {
     }
 
     .hero-section {
-        background-size: cover;
+        background-size: contain;
         padding-top: 120px;
     }
 
