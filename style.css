@@ -1015,8 +1015,9 @@ section {
     .hero-section {
         background-attachment: scroll;
         background-position: center bottom;
-        background-size: auto 100%;
+        background-size: cover;
         padding-top: 140px;
+        min-height: 100vh;
     }
 
     .hero-title {
