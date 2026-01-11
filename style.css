@@ -339,13 +339,14 @@ section {
 
 .musician-image {
     overflow: hidden;
-    height: 350px;
+    height: 400px;
 }
 
 .musician-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center 20%;
     transition: var(--transition);
 }
 
@@ -393,6 +394,19 @@ section {
 
 .album-cover:hover img {
     transform: scale(1.02);
+}
+
+.album-back-cover {
+    text-align: center;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.album-back-cover img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .album-placeholder {
@@ -1001,6 +1015,7 @@ section {
     .hero-section {
         background-attachment: scroll;
         background-position: center bottom;
+        background-size: auto 100%;
         padding-top: 140px;
     }
 
@@ -1015,7 +1030,11 @@ section {
     }
 
     .musician-image {
-        height: 300px;
+        height: 400px;
+    }
+
+    .musician-image img {
+        object-position: center top;
     }
 
     .gallery-item {
@@ -1036,21 +1055,34 @@ section {
         max-width: 200px;
     }
 
+    .hero-section {
+        background-size: cover;
+        padding-top: 120px;
+    }
+
     .hero-title {
-        font-size: 2rem;
+        font-size: 1.8rem;
         letter-spacing: 1px;
     }
 
     .hero-subtitle {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .hero-tagline {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     section {
         padding: 3rem 0;
+    }
+
+    .musician-image {
+        height: 350px;
+    }
+
+    .album-back-cover img {
+        max-width: 100%;
     }
 
     .section-title {
