@@ -115,11 +115,10 @@ img {
     height: 100vh;
     min-height: 600px;
     background-image: url('foto/IMG_0705.jpg');
-    background-size: contain;
+    background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-color: #2a2a2a;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -1017,9 +1016,17 @@ section {
     .hero-section {
         background-attachment: scroll;
         background-position: center bottom;
-        background-size: contain;
+        background-size: cover;
         padding-top: 140px;
         min-height: 100vh;
+    }
+
+    .hero-overlay {
+        background: linear-gradient(to bottom, rgba(30, 58, 95, 0.7), rgba(26, 26, 26, 0.75));
+    }
+
+    .hero-content {
+        padding: 1rem;
     }
 
     .hero-title {
@@ -1059,8 +1066,18 @@ section {
     }
 
     .hero-section {
-        background-size: contain;
-        padding-top: 120px;
+        background-size: cover;
+        padding-top: 100px;
+        min-height: 100vh;
+    }
+
+    .hero-overlay {
+        background: linear-gradient(to bottom, rgba(30, 58, 95, 0.75), rgba(26, 26, 26, 0.8));
+    }
+
+    .hero-content {
+        padding: 1rem;
+        width: 100%;
     }
 
     .hero-title {
