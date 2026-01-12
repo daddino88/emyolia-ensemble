@@ -33,6 +33,10 @@ body {
     overflow-x: hidden;
 }
 
+p {
+    text-align: justify;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-serif);
     font-weight: 600;
@@ -311,6 +315,7 @@ section {
     font-size: 1.2rem;
     font-weight: 400;
     color: var(--color-gray);
+    text-align: justify;
 }
 
 #chi-siamo img {
@@ -378,6 +383,7 @@ section {
     font-size: 0.95rem;
     color: var(--color-gray);
     font-style: italic;
+    text-align: justify;
 }
 
 /* === ALBUM SECTION === */
@@ -671,6 +677,7 @@ section {
     font-size: 1rem;
     margin-bottom: 1.5rem;
     color: var(--color-gray);
+    text-align: justify;
 }
 
 .program-features {
