@@ -976,11 +976,12 @@ section {
     }
 
     .hero-section {
-        min-height: 400px;
+        min-height: 550px;
     }
 
     .hero-content {
         padding: 1.5rem;
+        padding-top: 8rem;
     }
 
     .hero-title {
