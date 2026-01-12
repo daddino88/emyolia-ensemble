@@ -124,6 +124,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 4rem;
 }
 
 .hero-overlay {
@@ -1028,32 +1029,36 @@ section {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 577px) {
     .hero-section {
-        background-attachment: scroll;
+        background-size: contain;
         background-position: center center;
-        background-size: cover;
-        aspect-ratio: 9 / 16;
-        min-height: 100vh;
+        background-repeat: no-repeat;
+        background-color: #f5f1e8;
+        min-height: auto;
+        height: 80vw;
+        margin-bottom: 0 !important;
     }
 
     .hero-overlay {
-        background: linear-gradient(to bottom, rgba(30, 58, 95, 0.5) 0%, rgba(26, 26, 26, 0.4) 40%, rgba(26, 26, 26, 0.7) 100%);
+        background: none;
     }
 
     .hero-content {
         padding: 1rem;
-        margin-top: -10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
     }
 
     .hero-title {
         font-size: 2.5rem;
+        text-shadow: 3px 3px 20px rgba(0,0,0,0.9), 1px 1px 10px rgba(0,0,0,0.8);
     }
 
-    .hero-buttons .btn {
-        display: block;
-        width: 100%;
-        margin-bottom: 1rem;
+    .hero-subtitle {
+        text-shadow: 2px 2px 15px rgba(0,0,0,0.9), 1px 1px 8px rgba(0,0,0,0.7);
     }
 
     .musician-image {
@@ -1095,7 +1100,7 @@ section {
         min-height: auto;
         height: 100vw;
         aspect-ratio: auto;
-        margin-bottom: 0;
+        margin-bottom: 0 !important;
         margin-top: 0;
         padding-bottom: 0;
         padding-top: 0;
