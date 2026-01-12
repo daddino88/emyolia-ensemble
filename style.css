@@ -154,7 +154,7 @@ img {
     font-size: 1.8rem;
     font-weight: 300;
     margin-bottom: 1.5rem;
-    color: var(--color-secondary);
+    color: var(--color-white);
     text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
 }
 
@@ -1089,6 +1089,8 @@ section {
         background-color: #1a1a1a;
         min-height: 100vh;
         aspect-ratio: auto;
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
 
     .hero-overlay {
@@ -1099,6 +1101,10 @@ section {
         padding: 1rem;
         width: 100%;
         margin-top: 0;
+    }
+
+    .hero-buttons {
+        display: none;
     }
 
     .hero-title {
@@ -1116,6 +1122,11 @@ section {
 
     section {
         padding: 3rem 0;
+    }
+
+    #chi-siamo {
+        padding-top: 0;
+        margin-top: 0;
     }
 
     .musician-image {
