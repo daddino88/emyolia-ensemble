@@ -309,7 +309,7 @@ section {
 }
 
 #chi-siamo .lead {
-    font-size: 1.2rem;
+    font-size: 1.05rem;
     font-weight: 400;
     color: var(--color-gray);
     text-align: justify;
@@ -1076,6 +1076,11 @@ section {
 }
 
 @media (max-width: 576px) {
+    .navbar {
+        padding: 0.5rem 0;
+        margin-bottom: 0;
+    }
+
     .navbar-brand img {
         height: 60px;
         max-height: 60px;
@@ -1084,13 +1089,15 @@ section {
 
     .hero-section {
         background-size: contain;
-        background-position: center center;
+        background-position: center top;
         background-repeat: no-repeat;
         background-color: #1a1a1a;
         min-height: 100vh;
         aspect-ratio: auto;
         margin-bottom: 0;
+        margin-top: 0;
         padding-bottom: 0;
+        padding-top: 0;
     }
 
     .hero-overlay {
