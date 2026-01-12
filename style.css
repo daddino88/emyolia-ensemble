@@ -33,10 +33,6 @@ body {
     overflow-x: hidden;
 }
 
-p {
-    text-align: justify;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-serif);
     font-weight: 600;
@@ -309,6 +305,7 @@ section {
 #chi-siamo p {
     font-size: 1.05rem;
     margin-bottom: 1.2rem;
+    text-align: justify;
 }
 
 #chi-siamo .lead {
@@ -383,7 +380,6 @@ section {
     font-size: 0.95rem;
     color: var(--color-gray);
     font-style: italic;
-    text-align: justify;
 }
 
 /* === ALBUM SECTION === */
@@ -456,6 +452,7 @@ section {
 .album-description p {
     font-size: 1.05rem;
     margin-bottom: 1rem;
+    text-align: justify;
 }
 
 .album-themes {
