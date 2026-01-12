@@ -310,3 +310,25 @@ document.querySelector('.spotify-embed iframe')?.addEventListener('load', functi
     // });
 });
 */
+
+// ===================================
+// READ MORE ALBUM DESCRIPTION
+// ===================================
+document.addEventListener('DOMContentLoaded', function() {
+    const readMoreBtn = document.getElementById('readMoreBtn');
+    const moreText = document.getElementById('moreText');
+
+    if (readMoreBtn && moreText) {
+        readMoreBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            if (moreText.style.display === 'none') {
+                moreText.style.display = 'block';
+                readMoreBtn.innerHTML = '<i class="fas fa-chevron-up me-2"></i>Chiudi';
+            } else {
+                moreText.style.display = 'none';
+                readMoreBtn.innerHTML = '<i class="fas fa-chevron-down me-2"></i>Clicca qui per continuare la lettura';
+            }
+        });
+    }
+});
