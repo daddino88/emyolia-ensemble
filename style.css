@@ -983,6 +983,7 @@ section {
 
     .hero-section {
         min-height: 550px;
+        background-color: #f5f1e8;
     }
 
     .hero-content {
