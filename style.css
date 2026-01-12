@@ -1136,8 +1136,12 @@ section {
     }
 
     #chi-siamo {
-        padding-top: 0;
+        padding-top: 0 !important;
         margin-top: 0;
+    }
+
+    #chi-siamo.py-5 {
+        padding-top: 0 !important;
     }
 
     .musician-image {
