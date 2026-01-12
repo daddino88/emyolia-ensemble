@@ -1091,7 +1091,7 @@ section {
         background-size: contain;
         background-position: center center;
         background-repeat: no-repeat;
-        background-color: transparent;
+        background-color: #f5f1e8;
         min-height: auto;
         height: 100vw;
         aspect-ratio: auto;
