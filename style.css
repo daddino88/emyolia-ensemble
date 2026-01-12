@@ -1083,20 +1083,22 @@ section {
     }
 
     .hero-section {
-        background-size: cover;
+        background-size: contain;
         background-position: center center;
-        aspect-ratio: 9 / 16;
+        background-repeat: no-repeat;
+        background-color: #1a1a1a;
         min-height: 100vh;
+        aspect-ratio: auto;
     }
 
     .hero-overlay {
-        background: linear-gradient(to bottom, rgba(30, 58, 95, 0.5) 0%, rgba(26, 26, 26, 0.3) 30%, rgba(26, 26, 26, 0.75) 100%);
+        background: linear-gradient(to bottom, rgba(30, 58, 95, 0.4) 0%, rgba(26, 26, 26, 0.2) 40%, rgba(26, 26, 26, 0.6) 100%);
     }
 
     .hero-content {
         padding: 1rem;
         width: 100%;
-        margin-top: -15vh;
+        margin-top: 0;
     }
 
     .hero-title {
